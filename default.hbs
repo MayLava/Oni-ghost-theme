@@ -35,8 +35,9 @@
     {{{body}}}
 
     <footer class="site-footer">
-            <a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}
-            | Powered by <a href="https://ghost.org">Ghost</a>
+            <span><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</span>
+            <span><a href="{{@blog.url}}/rss/">RSS</a></span>
+            <span>(｢･ω･)｢ <a href="https://ghost.org">Ghost</a></span>
     </footer>
 
     {{! Ghost outputs important scripts and data with this tag }}
